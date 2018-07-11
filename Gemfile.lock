@@ -199,7 +199,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootsnap (>= 1.1.0)
+  bootsnap
   bootstrap (~> 4.1.1)
   byebug
   coffee-rails (~> 4.2)
