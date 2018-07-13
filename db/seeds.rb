@@ -7,7 +7,3 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-
-Location.create(place: 'Downtown', description: 'Bar', address: 'A Street', title: 'Owls bar', latitude: 10, longitude: 12)
-
- 
