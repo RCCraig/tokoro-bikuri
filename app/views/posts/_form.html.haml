@@ -1,12 +1,16 @@
 .row
-  .col-sm-8
+  .col-sm-6.offset-sm-3
     = simple_form_for(@post) do |f|
       = f.error_notification
       = f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present?
       .form-inputs
         = f.input :place
         = f.input :title
-        = f.input :details       
+        = f.input :details
+        = f.input :city
+        = f.input :state
+        = f.input :street   
+        = f.association :category
       .form-actions
         = f.button :submit
 

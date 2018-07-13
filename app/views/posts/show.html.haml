@@ -1,0 +1,25 @@
+%p#notice= notice
+%p
+  %strong Place:
+  = @post.place
+%p
+  %strong Title:
+  = @post.title
+%p
+  %strong Details:
+  = @post.details
+%p
+  %strong City:
+  = @post.city
+%p
+  %strong State:
+  = @post.state
+%p
+  %strong Street:
+  = @post.street
+%p
+  %strong Category:
+  = @post.category.name
+= link_to 'Edit', edit_post_path(@post)
+|
+= link_to 'Back', posts_path
