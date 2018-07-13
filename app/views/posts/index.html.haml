@@ -1,0 +1,19 @@
+%h1 Posts
+.container
+  - @posts.each do |post|
+    .row
+      .card
+        .card-body
+          %h5.card-title
+            = post.title
+          %h6.card-subtitle
+            = post.place
+          %p.card-text
+            = post.details
+          %a.card-link{:href => "#"} Card link
+         
+     
+= link_to 'New Post', new_post_path
+
+
+
