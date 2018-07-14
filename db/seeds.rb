@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+User.create(email: "craig@msn.com", password: "112233", password_confirmation: "112233", name: "Craig")
+
 Category.create(name: "Sports")
 Category.create(name: "Food")
 Category.create(name: "Events")
@@ -15,3 +17,4 @@ Post.create(place: "Subway", title: "Free Sub", details: "Free sub from 2pm", ci
 Post.create(place: "Slim Chickens", title: "Hungry Kids", details: "Kids eat free today", city: "Little Rock", state: "AR", street: "Markham", user_id: 1, category_id: 2)
 Post.create(place: "Chipotle", title: "New Salsa", details: "Try our new mango salsa", city: "Little Rock", state: "AR", street: "University", user_id: 1, category_id: 2)
 Post.create(place: "Red Lobster", title: "Hiring", details: "Hiring BarTenders now", city: "Little Rock", state: "AR", street: "Markham", user_id: 1, category_id: 3)
+
