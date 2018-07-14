@@ -7,10 +7,6 @@
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
-  %body
-    %header
-      = render 'shared/header'
-      %p.notice= notice
-      %p.alert= alert
-    %section      
-      = yield
+  %body    
+    = render 'shared/header'   
+    = yield

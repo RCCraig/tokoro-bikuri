@@ -1,8 +1,9 @@
-.jumbotron.jumbotron-fluid
+.jumbotron.jumbotron-fluid.main-home
   .container
     %h1.display-4 Where you are matters...
-    %p.lead Get location-based deals and fun
-    %a.btn.btn-danger.btn-lg{:href => "#", :role => "button"} Join Now
+    %h2 Get location-based deals and fun
+    %a
+      = link_to "Join Now", new_user_registration_path, class: "btn btn-danger btn-lg"
 .container
   .row
     .col-sm-4
