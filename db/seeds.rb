@@ -9,3 +9,9 @@
 Category.create(name: "Sports")
 Category.create(name: "Food")
 Category.create(name: "Events")
+
+
+Post.create(place: "Subway", title: "Free Sub", details: "Free sub from 2pm", city: "Little Rock", state: "AR", street: "Van Buren", user_id: 1, category_id: 2)
+Post.create(place: "Slim Chickens", title: "Hungry Kids", details: "Kids eat free today", city: "Little Rock", state: "AR", street: "Markham", user_id: 1, category_id: 2)
+Post.create(place: "Chipotle", title: "New Salsa", details: "Try our new mango salsa", city: "Little Rock", state: "AR", street: "University", user_id: 1, category_id: 2)
+Post.create(place: "Red Lobster", title: "Hiring", details: "Hiring BarTenders now", city: "Little Rock", state: "AR", street: "Markham", user_id: 1, category_id: 3)

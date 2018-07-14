@@ -1,8 +1,28 @@
+.jumbotron.jumbotron-fluid
+  .container
+    %h1.display-4 Where you are matters...
+    %p.lead Get location-based deals and fun
+    %a.btn.btn-danger.btn-lg{:href => "#", :role => "button"} Join Now
 .container
   .row
-    .col-sm-12
-      %form.form-inline       
-        %label.sr-only{:for => "inlineFormInputGroupUsername2"} Username        
-        %input.form-control{:placeholder => "Username", :type => "text"}/
-        .form-check.mb-2.mr-sm-2          
-        %button.btn.btn-primary.mb-2{:type => "submit"} Submit
+    .col-sm-4
+      .card{:style => "width: 18rem;"}
+        %img.card-img-top{:alt => "Card image cap", :src => "/tmp/berry.jpg"}/
+        .card-body
+          %h5.card-title Fresh Berries
+          %p.card-text Get them Quick.
+          %a.btn.btn-primary{:href => "#"} Look
+    .col-sm-4
+      .card{:style => "width: 18rem;"}
+        %img.card-img-top{:alt => "Card image cap", :src => "/tmp/cake.jpg"}/
+        .card-body
+          %h5.card-title Free Cake
+          %p.card-text Two pieces of cake if your bday is this week.
+          %a.btn.btn-primary{:href => "#"} Get the Deal
+    .col-sm-4
+      .card{:style => "width: 18rem;"}
+        %img.card-img-top{:alt => "Card image cap", :src => "/tmp/water-melon.jpg"}/
+        .card-body
+          %h5.card-title New Flavor
+          %p.card-text Try our new Watermelon Smoothie.
+          %a.btn.btn-primary{:href => "#"} Find Store
