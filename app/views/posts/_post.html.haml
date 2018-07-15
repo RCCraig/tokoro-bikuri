@@ -7,4 +7,5 @@
         = post.title
       %p.card-text 
         = post.details            
-      %a.card-link{:href => "#"} Look
+      %a
+        = link_to "Look", post, class: "card-link"

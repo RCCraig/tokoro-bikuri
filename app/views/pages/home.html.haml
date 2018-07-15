@@ -1,9 +1,13 @@
-.jumbotron.jumbotron-fluid.main-home
+.jumbotron.jumbotron-fluid.main-home.d-none.d-sm-block
   .container
-    %h2 Here you are....
+    %h2.display-4 Where you are matters....
     %h4 Get location-based deals
     %a
       = link_to "Join Now", new_user_registration_path, class: "btn btn-danger btn-lg"
+.jumbotron.d-block.d-sm-none
+  %h1.display-4 Find your Deals  
+  %a.btn.btn-primary.btn-lg{:href => "#", :role => "button"} Learn more
+
 .container
   .row
     .col-sm-4
